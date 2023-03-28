@@ -1,6 +1,10 @@
 # Analisis Produk Terlaris dari Data Perilaku Customer Toko Online
 ## Overview
 Salah satu informasi yang bisa didapat dari data penjualan toko online adalah data perilaku customer. Project machine learning ini bertujuan untuk memprediksi apakah seorang customer toko online akan membeli suatu barang atau tidak menggunakan data perilaku customer dari toko online tersebut. Selain machine learning, akan dianalisis juga informasi penting lain, misalnya seperti apa produk yang laris dijual berdasarkan perilaku pembelinya di toko online. Hasil analisis project machine learning ini diharapkan nantinya bisa membantu penjual di toko online, distributor barang, atau pihak-pihak berkepentingan lain untuk mengambil keputusan tentang penjualan suatu barang berdasarkan data perilaku customer barang tersebut.
+## Struktur GitHub
+-Analisis-Prilaku-Customer.ipynb = File jupyter notebook dimana program Python machine learning di jalankan.
+-Presentasi Analisis.pdf = File presentasi yang menjelaskan detail project machine learning, termasuk hasil analisis EDA dan hasil analisis Machine Learning.
+-events.csv.zip = Data yang digunakan dalam project machine learning yang sudah di compress.
 ## Data Description
 Berikut ini adalah deskripsi tiap kolom yang ada dalam data:
 -event_time: waktu tiap terjadinya event/perilaku dalam UTC.
