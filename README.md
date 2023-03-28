@@ -2,20 +2,20 @@
 ## Overview
 Salah satu informasi yang bisa didapat dari data penjualan toko online adalah data perilaku customer. Project machine learning ini bertujuan untuk memprediksi apakah seorang customer toko online akan membeli suatu barang atau tidak menggunakan data perilaku customer dari toko online tersebut. Selain machine learning, akan dianalisis juga informasi penting lain, misalnya seperti apa produk yang laris dijual berdasarkan perilaku pembelinya di toko online. Hasil analisis project machine learning ini diharapkan nantinya bisa membantu penjual di toko online, distributor barang, atau pihak-pihak berkepentingan lain untuk mengambil keputusan tentang penjualan suatu barang berdasarkan data perilaku customer barang tersebut.
 ## Struktur GitHub
--Analisis-Prilaku-Customer.ipynb = File jupyter notebook dimana program Python machine learning di jalankan.
--Presentasi Analisis.pdf = File presentasi yang menjelaskan detail project machine learning, termasuk hasil analisis EDA dan hasil analisis Machine Learning.
--events.csv.zip = Data yang digunakan dalam project machine learning yang sudah di compress.
+- Analisis-Prilaku-Customer.ipynb = File jupyter notebook dimana program Python machine learning di jalankan.
+- Presentasi Analisis.pdf = File presentasi yang menjelaskan detail project machine learning, termasuk hasil analisis EDA dan hasil analisis Machine Learning.
+- events.csv.zip = Data yang digunakan dalam project machine learning yang sudah di compress.
 ## Data Description
 Berikut ini adalah deskripsi tiap kolom yang ada dalam data:
--event_time: waktu tiap terjadinya event/perilaku dalam UTC.
--event_type: perilaku yang dilakukan, ada 3 jenis yaitu view, cart, dan purchase.
--product_id: ID dari produk.
--category_id: ID untuk kategori produk.
--category_code: Kategori produk.
--brand: nama brand produk.
--price: harga produk.
--user_id: ID permanen pengguna.
--user_session: ID pengguna tiap yang berubah tiap sesi.
+- event_time: waktu tiap terjadinya event/perilaku dalam UTC.
+- event_type: perilaku yang dilakukan, ada 3 jenis yaitu view, cart, dan purchase.
+- product_id: ID dari produk.
+- category_id: ID untuk kategori produk.
+- category_code: Kategori produk.
+- brand: nama brand produk.
+- price: harga produk.
+- user_id: ID permanen pengguna.
+- user_session: ID pengguna tiap yang berubah tiap sesi.
 ## Data Modeling
 - Model machine learning yang digunakan untuk memprediksi pembelian berdasarkan perilaku customer adalah XGBoost.
 - Performa model machine learning tersebut adalah sebagai berikut:
